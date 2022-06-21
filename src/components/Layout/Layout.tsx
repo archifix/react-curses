@@ -1,7 +1,7 @@
 import PageFooter from "./Footer"
 import PageHeader from "./Header"
 
-const Layout: React.FC = ({ children }) => {
+const PageLayout: React.FC = ({ children }) => {
   return (
     <div>
       <PageHeader />
@@ -11,4 +11,4 @@ const Layout: React.FC = ({ children }) => {
   )
 }
 
-export default Layout
+export default PageLayout

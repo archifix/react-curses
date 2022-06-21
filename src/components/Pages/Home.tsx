@@ -1,14 +1,14 @@
 import React from "react"
-import Layout from "../Layout/Layout"
+import PageLayout from "../Layout/Layout"
 
 const Home = () => {
   return (
     <div>
-      <Layout>
+      <PageLayout>
         <div>
           <h1>Hello</h1>
         </div>
-      </Layout>
+      </PageLayout>
     </div>
   )
 }
